@@ -1,7 +1,7 @@
 # ASUSu310uq-efi
 黑苹果 hackintosh 华硕ASUS u310uq 10.13.6（i5 6200U/8GB/256GB）
 
-一、机型配置
+#一、机型配置
 硬件	型号
 处理器名称	Intel 酷睿i5 6200U
 主板名称	华硕ASUS u310uq（i5 6200U/8GB/256GB）
@@ -11,11 +11,12 @@
 音频适配器	Conexant SmartAudio HD（14f1-1f72）
 WiFi 蓝牙	bcm94360cs2 自行更换，无白名单
 
-二、安装之前BIOS设置
+#二、安装之前BIOS设置
 -bios中将raid硬盘模式切换为ahci
 -Disabled Secure Boot  
 -uefi only →legancy support
-三、运行状态
+
+#三、运行状态
 正常运行列表
 显卡HD520驱动正常，注入ID 0x19160000  
 声卡驱动正常，注入ID 13   
